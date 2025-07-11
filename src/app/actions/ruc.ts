@@ -2,7 +2,7 @@
 
 import type { RucData } from "@/types/ruc";
 
-const API_BASE_URL = "https://ff77-179-6-1-44.ngrok-free.app/api/ruc";
+const API_BASE_URL = "https://musical-broccoli-r4xrw4rwjp2vvr-8080.app.github.dev/api/ruc";
 
 export async function fetchRucData(ruc: string): Promise<{ data?: RucData; error?: string }> {
   try {
